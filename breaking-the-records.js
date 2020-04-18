@@ -7,6 +7,7 @@ function breakingRecords(scores) {
         if (scores[i] > high) {
             high = scores[i];
             highCount ++;
+            continue;
         }
         if (scores[i] < low) {
             low = scores[i];
