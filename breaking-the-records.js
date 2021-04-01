@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 function breakingRecords(scores) {
     let high = scores[0];
     let low = scores[0];
